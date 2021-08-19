@@ -1,0 +1,19 @@
+variable "environment" {}
+variable "component" {}
+variable "region" { default = "us-east-1" }
+variable "assume_role_arn" {}
+variable "git_url" {}
+variable "task_execution_role" {}
+variable "private_subnets" {}
+variable "vpc" {}
+variable "security_group_https" {}
+variable "keypair_name" {}
+variable "resource_name_prefix" {}
+variable "image_id" {}
+variable "resource_max_size" {}
+variable "resource_min_size" {}
+variable "desired_capacity" {}
+variable "key_name" {}
+variable "subnet_prefix" {}
+variable "instance_type" {}
+variable "backup_strategy_retention" {}
