@@ -1,0 +1,12 @@
+#---------------------------------------------------------------------------------------------------------
+# This is called the variable file from where we pass the variable values to the main.tf terraform file.
+#---------------------------------------------------------------------------------------------------------
+environment             = "staging"
+desired_capacity        = 1
+resource_min_size       = 1
+resource_max_size       = 2
+key_name                = "aws_test_key"
+vpc                     = "any existing vpc" # change from VPC in AWS console
+subnet_prefix           = "*PrivateSubnet*"
+security_group_https    =  "Security group for network ssh"
+resource_name_prefix    = "this is will be staring name of your all resources"
